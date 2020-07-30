@@ -1,11 +1,12 @@
 <?php 
 
 class Ape extends Animal{
+    public $up = 'auoo';
 
     function yell()
     {
-        echo 'Auoo';
-        echo '2';
+        echo $this->up;
+        echo $this->legs;
     }
 }
 

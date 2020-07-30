@@ -10,6 +10,10 @@ class Animal
       $this->cold_blooded = "false";
     }
 
+    public function setLegs($a){
+      $this->legs = $a;
+    }
+
 }
 
 
